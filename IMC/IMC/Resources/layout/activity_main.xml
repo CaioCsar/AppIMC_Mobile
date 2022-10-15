@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:text="Insira seu Peso(Kg):"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:textAlignment="center"
+        android:id="@+id/textView1" />
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpeso" />
+    <TextView
+        android:text="Insira sua Altura(m):"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/textView2" />
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtaltura" />
+    <CheckBox
+        android:text="Homem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ckhomem"
+        android:textSize="20dp" />
+    <CheckBox
+        android:text="Mulher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ckmulher"
+        android:textSize="20dp" />
+    <Button
+        android:text="Executar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnexecutar" />
+    <Button
+        android:text="Limpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlimpar" />
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="220.0dp"
+        android:id="@+id/result"
+        android:layout_marginBottom="168.5dp"
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:textAlignment="center" />
+</LinearLayout>
